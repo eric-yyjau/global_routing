@@ -1,0 +1,36 @@
+====================================================================================
+Algorithms programming hw2
+====================================================================================
+
+1. 學號：b02901011
+2. 系級：電機三
+3. 姓名：趙祐毅
+4. 編譯器：< GNU g++ >
+5. 檔案壓縮方式： <tar cvfz b02901011-p3.tar.gz b02901011-p3>
+6. 各檔案說明：
+	main.cpp : main program
+	routing.h:function definition for applying Dijkstra's SSSP to do routing 
+	routing.cpp:function content
+	parser.h :function definition
+	parser.cpp :function content
+	myMinHeap.h : using heap data structure
+	global_routing : executable binary
+7.編譯方式說明：
+	( Makefile原先下的 Optimize 指令為 -O3）
+	請在cpp,Makefile的目錄下,鍵入：
+	make
+	可得到執行檔 global_routing
+
+8.執行使用方式：
+	執行檔的命令格式為：
+	./<executable_sort_name> <input file name> <output_file>
+	(ex: ./global_routing gr60x60.in gr60x60.out)
+
+9. 執行結果說明
+	執行後會印出：
+	The execution spends 0.077566 seconds
+	此為做完 routing 花費的時間
+	之後的檔案，將會存在檔名為一開始輸入<output_file>的檔案。
+
+===================================================================================
+
